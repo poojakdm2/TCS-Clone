@@ -1,0 +1,1056 @@
+*{
+    padding: 0px;
+    margin: 0px;
+   scroll-behavior: smooth;
+  
+}
+
+.main
+{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid ;
+    
+    
+    
+    
+}
+#sec1
+{
+    background-color: black;
+    border: 1px solid none;
+    height: 85px;
+    width: 100%;
+    height: 85px;
+    position:fixed;
+}
+
+.main .rightl
+{
+    margin: 20px auto;
+    margin-left: 6px;
+    width: 15%;
+    height:60px;
+
+       
+        border: 1px solid none;
+       display: flex;
+       background-color: black;
+
+     
+}
+.main .right
+{
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 500px;
+        border: 1px solid none ;
+}
+.main .right li 
+{
+    margin-top: 30px;
+    flex-direction: row;
+   
+    
+    list-style: none;
+   
+    font-size: 18px;
+    
+
+
+}
+.main .left
+{
+    justify-content: space-evenly;
+    display: flex;
+    margin-left: 280px;
+
+    border: 1px solid none;
+    height: 80px;
+    width: 500px;
+    
+}
+.main .left li
+{
+    margin-top: 30px;
+    
+}
+.main .left li a
+{
+    text-decoration: none;
+    color: gray;
+}
+.main .left #l8
+{
+    list-style-type:none;
+    color: #FF007F;
+    font-size: 25px;
+    font-weight: lighter;
+
+}
+.main .left .logor
+{
+    margin-top: 10px;
+    border-radius:50%;
+   
+    
+}
+
+
+.main .right li a
+{
+    color:white;
+    text-decoration: none;
+    
+}
+  .main .right li :hover {
+      text-decoration: underline darkmagenta;
+  }
+
+#sec2
+{
+    
+    
+    background-color: black;
+    border: 1px solid none;
+    display: flex;
+    height: 600px;
+    width: 100%;
+    display: flex;
+
+    
+    
+ 
+}
+
+#sec2m
+{
+    
+    height: 600px;
+    width: 1400px;
+    border: 1px solid none;
+    margin: auto;
+    margin-top: 200px;
+    
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(./Images/main.jpg);
+margin-top: 20px;
+display: flex;
+   
+}
+
+#sec2m .sec21
+{
+    height: 300px;
+    width:vw;
+    
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    
+}
+#sec2m .sec21 h1
+{
+    line-height: 50px;
+    color: white;
+    font-size: 50px;
+    font-weight: 400px;
+    line-height: 60px;
+
+}
+#sec2m .sec21 h3
+{
+    margin-top: 20px;
+    color: white;
+    line-height: 30px;
+    line-height: 30px;
+    font-size: 25px;
+}
+#sec2m .sec21 button
+{
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 50px;
+    width: 180px;
+    font-size: 20px;
+    background-image: linear-gradient(to right ,#FF007F ,#FF6EC7);
+    border: none;
+    color: white;
+}
+#sec2m .sec21 button:hover{
+    background-image: linear-gradient(to right,#FF6EC7, #FF007F);
+}
+#sec3 
+{
+    height: 400px;
+    width: vw;
+    background-color: black;
+    border: 1px solid;
+    display: flex;
+    margin-left: 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+   
+}
+#sec3 .heads h1
+{
+    font-size: 30px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 30px;
+    display: flex;
+   
+
+}
+#sec3 .child
+{
+    margin-top: 100px;
+    height: 300px;
+    width:200px;
+    
+    display: flex;
+   
+   
+      
+    
+ 
+    
+}
+#sec3 .child .out
+{
+    
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    border: 3px solid #FF007F;
+}
+#sec3 .child .ic
+{
+    height: 150px;
+    width: 150px;
+    border: 15px solid black;
+    margin:  auto;
+    border-radius: 50% ;
+
+}
+
+#sec3 .child #ic1
+{
+    background-image: url(./Images/snap1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#sec3 .child #ic2 {
+    background-image: url(./Images/snap2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#sec3 .child #ic3 {
+    background-image: url(./Images/snap3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#sec3 .child #ic4 {
+    background-image: url(./Images/snap4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#sec3 .child #ic5{
+    background-image: url(./Images/snap5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#sec3 .child #ic6{
+    background-image: url(./Images/snap6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#sec3 .child .inchild
+{
+    justify-content: end;
+    margin: 1px solid black;
+    height: 100px;
+    width: 200px;
+    margin-top: 180px;
+    margin-left: 30px;
+}
+#sec3 .child .inchild a
+{
+    text-decoration: none;
+    color: white ;
+    font-size: 20px;
+}
+
+
+
+#sec4
+{
+height: 600px;
+ width: vw;
+ background-color: black;
+ border: 1px solid;
+ display: flex;
+ margin-left: 0px;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+#sec4 .sec4
+{
+    margin-top: 50px;
+    width:1300px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+}
+#sec4 .sec4 #child1
+{
+    height: 400px;
+    width: 600px;
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-left: 20px;
+    
+   
+
+}
+#sec4 .sec4 #child1 h1
+{
+   
+  
+  margin-top: 100px;
+    margin-top: 30px;
+    color: white;
+    font-size: 50px;
+}
+#sec4 .sec4 #child1 h3
+{
+    display: inline;
+    color: gray;
+    font-size:20px;
+}
+#sec4 .sec4 #child2
+{
+    height: 400px;
+    width: 500px;
+    border: 1px solid rgba(128, 128, 128, 0.568);
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color:rgba(128, 128, 128, 0.568);
+    
+   
+   
+    color: white;
+    font-size: 25px;
+   
+}
+ 
+#sec4 .sec4 #child2 h1
+{
+    margin-left: 50px;
+    margin-top: 100px;
+}
+#sec4 .sec4 #child2 .ch1ch{
+  height: 50px;
+  width: 400px;
+  display: flex;
+  
+  flex-wrap: wrap;
+ 
+    margin-top: 80px;
+    margin-left: 50px;
+}
+#sec4 .sec4 #child2 .ch1ch .m
+{
+ 
+  height: 50px;
+  width: 100px;
+  display: flex;
+  margin-left: 2px;
+  justify-content: space-evenly;
+}
+#sec4 .sec4 #child2 .ch1ch .m #p
+{
+    font-size: 50px;
+    color: #FF007F;
+}
+#sec4 .sec4 #child2 .ch1ch .m1 {
+    
+    height: 50px;
+    width: 100px;
+    display: flex;
+    margin-left: 190px;
+    justify-content: space-around;
+}
+
+#sec4 .sec4 #child2 .ch1ch .m1 #p {
+    font-size: 50px;
+    color: #FF007F;
+}
+
+#sec4 .sec4 #child2 .ch1ch .m1 h3
+{
+ margin-left: 20px;
+font-size: 30px;
+margin-top: 7px;
+}
+
+#sec4 .sec4 #child2 .ch1ch .m h3 {
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+
+
+
+
+#sec5
+
+{
+    height: 800px;
+    width: vw;
+    border: 1px solid;
+    
+    
+    background-color:black;
+    color: white;
+    border: 1px solid black;
+}
+
+
+#sec5 .head h1
+{
+   
+    margin-left: 80px;
+   
+    margin-top: 0px;
+    font-size: 30px;
+
+}
+#sec5 hr
+{
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-right: 80px;
+}
+#sec5 .main
+{
+    margin-top: 20px;
+    margin-left: 80px;
+    height: 550px;
+    width: 1400px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+#sec5 .main .child
+{
+    margin-top: 20px;
+    height: 500px;
+    width: 400px;
+    border: 1px solid ;
+    
+    
+}
+#sec5 .main .child button
+{
+    width: 180px;
+    height: 40px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: black;
+}
+#sec5 .main .child h1 
+{
+   
+  margin-top: 310px;
+  margin-left: 30px;
+}
+#sec5 .main .child h1 a
+{
+    text-decoration: none;
+        color:white;
+        font-weight: bolder;
+        font-size: 30px;
+}
+#sec5 .main #child1
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Images/p1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+#sec5 .main #child2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Images/p2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#sec5 .main #child3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Images/p3.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+
+}
+#sec6
+{
+    margin-top: 0px;
+    height: 900px;
+    width: vw;
+   border: 1px solid black;
+ 
+    justify-content: center;
+    background-color: black;
+}
+#sec6 .head
+{
+    width: 600px;
+    height: 50px;
+  
+  
+    border: 1px solid black;
+}
+
+#sec6 .head h1
+{
+    font-size: 40px;
+    color: white;
+}
+#sec6 .main
+{
+    height: 700px;
+    width: 1400px;
+    
+ margin: 50px auto;
+    border: 1px solid black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/discover.jpg);
+    background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        
+}
+
+#sec6 .main .cont
+{
+    height: 200px;
+    width: 500px;
+    font-size: 20px;
+    margin-left: 200px;
+    line-height: 50px;
+    margin-top: 200px;
+    
+    color: white;
+    
+}
+#sec6 .main .cont #btn
+{
+    margin-top: 20px;
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+.head1
+{
+    background-color: black;
+    color: white;
+  
+    
+}
+.head1 h1
+{
+    margin-left: 80px;
+}
+#sec6 .main .inner
+{
+   
+    width: 1300px;
+    height: 400px;
+
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: 200px;
+    
+}
+#sec6 .main .inner .child
+{
+    height: 200px;
+    width: 300px;
+    margin-top: 100px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    
+
+    
+}
+#sec6 .main .inner .child h1
+{
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+#sec6 .main .inner .child h2
+{
+    margin-top: 20px;
+        margin-left: 20px;
+}
+#sec6 .main .inner #child1
+{
+    border-color: #FF007F;
+}
+
+
+
+#sec7
+{
+    height: 600px;
+    width: 100%;
+    
+    border: 1px solid;
+}
+
+#sec7 .main
+{
+    width: 100%;
+    height: 700px;
+    border: 1px solid none;
+    display: flex;
+    flex-wrap: wrap;
+}
+#sec7 .main .text
+{
+    height: 700px;
+    background-color:white;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#sec7 .main .text .t
+{   font-size: 25px;
+    width: 500px;
+    margin-left: 60px;
+    border: 1px solid none;
+}
+#sec7 .main .text .t h3
+{
+    line-height: 30px;
+    font-size: 20px;
+    color: gray;
+}
+#sec7 .main .text .t h1
+{
+    margin-top: 5px;
+    color: orangered;
+}
+#sec7 .main .text .e {
+    width: 500px;
+    margin-left: 60px;
+    border: 1px solid none;
+}
+#sec7 .main .text .e p{
+    
+    font-size: 25px;
+    color: gray;
+   
+    
+}
+#sec7 .main .text .x {
+    display: flex;
+    width: 500px;
+    height: 60px;
+    margin-left: 60px;
+    border: 1px solid none;
+}
+#sec7 .main .text .x .arr{
+    margin-left: 20px;
+
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   background-color: black;
+}
+#sec7 .main .text .x h1
+{
+    font-size: 30px;
+}
+#sec7 .main .text .x .arr #p1
+{
+    color: white;
+    font-size: 45px;
+}
+#sec7 .main .img
+{
+   
+    height: 700px;
+    width: 50%;
+    border: 1px solid none;
+    background-image: url(./Images/who.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+    ;
+
+}
+
+#sec8 
+{
+    margin-top: 100px;
+    height: 100px;
+    width: 100%;
+    border: 1px solid white;
+}
+#sec8 .head
+{
+    height: 50px;
+    width: 300px;
+    border: 1px solid white;
+    margin-left: 120px;
+    margin-top: 80px;
+}
+#sec8 .head h1
+{
+    font-size: 50px;
+    }
+#sec8 .main {
+    margin-top: 70px;
+    margin-left: 80px;
+    height: 550px;
+    width: 1400px;
+    border: 1px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+   
+
+}
+
+#sec8 .main .child {
+    margin-top: 15px;
+    height: 500px;
+    width: 400px;
+    border: 1px solid;
+
+
+}
+
+
+#sec8 .main .child p {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+#sec8 .main .child p a{
+    text-decoration: none;
+    color: white;
+}
+
+#sec8 .main .child h2
+{
+    margin-left: 30px;
+    margin-top: 300px;
+    color: white;
+        font-weight: bolder;
+        font-size: 30px;
+
+}
+
+#sec8 .main .child h1 a {
+    margin-top: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size:2 0px;
+}
+
+#sec8 .main #child1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./images/belif1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#sec8 .main #child2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./Images/ai.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#sec8 .main #child3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./Images/belif2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+
+
+
+#sec9{
+    height: 600px;
+    width: 100%;
+    margin-top: 700px;
+    border: 1px solid none;
+}
+
+#sec9 .main {
+    width: 100%;
+    height: 700px;
+    border: 1px solid none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sec9 .main .text {
+    height: 700px;
+    background-color: white;
+    width: 50%px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid none;
+}
+
+#sec9 .main .text .t {
+    font-size: 25px;
+    width: 500px;
+    margin-left: 60px;
+    border: 1px solid none;
+}
+
+#sec9 .main .text .t h3 {
+    line-height: 30px;
+    font-size: 20px;
+    color: gray;
+}
+
+#sec9 .main .text .t h1 {
+    margin-top: 5px;
+    color: orangered;
+}
+
+#sec9 .main .text .e {
+    width: 500px;
+    margin-left: 60px;
+    border: 1px solid none;
+}
+
+#sec9 .main .text .e p {
+
+    font-size: 25px;
+    color: gray;
+
+
+}
+
+#sec9 .main .text .x {
+    display: flex;
+    width: 500px;
+    height: 60px;
+    margin-left: 60px;
+    border: 1px solid none;
+}
+
+#sec9 .main .text .x .arr {
+    margin-left: 20px;
+
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#sec9 .main .text .x h1 {
+    font-size: 30px;
+}
+
+#sec9 .main .text .x .arr #p1 {
+    color: white;
+    font-size: 45px;
+}
+
+#sec9 .main .img {
+
+    height: 700px;
+    width: 750px;
+    margin-left: 210px;
+    border: 1px solid none;
+    background-image: url(./Images/what.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#sec10
+{
+    background-color:#1D1D1D;
+    height: 800px;
+    width: 100%;
+    border: 1px solid none;
+    margin-top: 130px;
+    display: flex;
+    
+}
+#sec10 .main
+{
+    height:800px ;
+         display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        border: 1px solid none;
+}
+#sec10 .main .child
+{
+    margin-top: 50px;
+    height: 700px;
+    width: 300px;
+    border: 1px solid none;
+}
+
+#sec10 .main .child ul li 
+{
+    list-style-type:none;
+}
+#sec10 .main .child ul li a
+{
+  
+    color: gray;
+    line-height: 35px;
+    text-decoration: none;
+}
+#sec10 .main .child ul li :hover{
+   text-decoration: underline;
+   text-decoration-color: gray;
+}
+#sec10 .main .child ul h3
+{
+    color: rgb(128, 128, 128);
+}
+
+#sec11
+{
+    margin-top: 0px;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid none ;
+    
+
+
+}
+#sec11 .main
+{
+    
+    width: 100%;
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border: 1px solid ;
+}
+#sec11 #ch1
+{
+    height: 70px;
+    width: 140px;
+    margin-top: 20px;
+    margin-left: 50px;
+  border: 1px solid ;
+
+}
+
+.pooja
+{
+    width: 600px;
+    margin-top: 35px;
+    color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+ 
+#sec11 .main #ch3 {
+    height: 70px;
+    width:600px;
+    
+    margin-top: 20px;
+    border: 1px solid black;
+   
+    
+
+
+}
+#sec11 .main #ch3 .l
+{
+    display: flex;
+   flex-wrap: wrap;
+   
+height: 25px;
+border: 1px solid black;
+width: 500px;
+}
+#sec11 .main #ch3 .r
+{
+   display: flex;
+        flex-wrap: wrap;
+        margin-top: 4px;
+        height: 25px;
+        border: 1px solid;
+        width: 500px;
+
+}
+#sec11 .main #ch3 .r a
+{
+    color: white;
+    text-decoration: none;
+}
+#sec11 .main #ch3 .l a {
+    color: white;
+    text-decoration: none;
+}
